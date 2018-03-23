@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default class List extends Component {
   static childContextTypes = {
-    type: React.PropTypes.string
+    type: PropTypes.string
   };
 
   getChildContext() {
