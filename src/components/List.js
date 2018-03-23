@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { View } from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class List extends Component {
   static childContextTypes = {
