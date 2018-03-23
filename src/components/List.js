@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
+import ListItem from "./ListItem";
 
 export default class List extends Component {
   static childContextTypes = {
@@ -12,10 +13,18 @@ export default class List extends Component {
       type: this.props.type
     };
   }
-
+  renderListItems() {
+    return this.props.children.map((item, index) => {
+      return (
+        <View key={index}>
+          <ListItem prefix={index} item={item} />
+        </View>
+      )
+    })
+  }
   render() {
-    const { children, type } = this.props;
+    const { type } = this.props;
 
-    return <View>{children}</View>;
+    return <View>{this.renderListItems()}</View>;
   }
 }
