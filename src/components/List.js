@@ -25,6 +25,6 @@ export default class List extends Component {
   render() {
     const { type } = this.props;
 
-    return <View>{this.renderListItems()}</View>;
+    return <View style={{ marginBottom: 25 }}>{this.renderListItems()}</View>;
   }
 }

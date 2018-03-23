@@ -1,6 +1,6 @@
 {
   "name": "react16-markdown-native",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "Render Markdown as React(16) native components",
   "main": "src/Markdown.js",
   "scripts": {
