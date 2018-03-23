@@ -1,5 +1,6 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import { Image } from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class ImageComponent extends Component {
   static propTypes = {
