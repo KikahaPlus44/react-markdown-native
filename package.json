@@ -1,29 +1,31 @@
 {
-  "name": "react-markdown-native",
+  "name": "react16-markdown-native",
   "version": "1.1.0",
-  "description": "Render Markdown as React native components",
+  "description": "Render Markdown as React(16) native components",
   "main": "src/Markdown.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohebifar/react-markdown-native.git"
+    "url": "git+https://github.com/KikahaPlus44/react16-markdown-native.git"
   },
   "keywords": [
     "commonmark",
     "markdown",
     "react",
-    "react-component"
+    "react-component",
+    "react 16"
   ],
   "author": "Mohamad Mohebifar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mohebifar/react-markdown-native/issues"
+    "url": "https://github.com/KikahaPlus44/react16-markdown-native/issues"
   },
-  "homepage": "https://github.com/mohebifar/react-markdown-native#readme",
+  "homepage": "https://github.com/KikahaPlus44/react16-markdown-native#readme",
   "dependencies": {
     "commonmark": "^0.24.0",
-    "commonmark-react-renderer": "^4.1.1"
+    "commonmark-react-renderer": "^4.1.1",
+    "prop-types": "^15.6.0"
   }
 }
