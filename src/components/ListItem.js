@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ListItem = (props, context) => {
 	const { item, prefix } = props;
-	return <Text>{context.type === 'Bullet' ? '● ' : `${prefix + 1}. `}{item}</Text>;
+	return <Text>{context.type === 'Bullet' ? '• ' : `${prefix + 1}. `}{item}</Text>;
 };
 
 ListItem.contextTypes = {
