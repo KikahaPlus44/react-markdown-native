@@ -1,5 +1,6 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { Text } from 'react-native';
+import PropTypes from 'prop-types';
 
 const Item = (props, context) => {
   const { children, nodeKey } = props;
