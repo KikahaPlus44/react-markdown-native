@@ -1,8 +1,9 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Parser } from 'commonmark';
 import ReactRenderer from 'commonmark-react-renderer';
 import renderers from './renderers';
+import PropTypes from 'prop-types';
 
 var parser = new Parser();
 
