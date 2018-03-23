@@ -3,12 +3,14 @@ This project provides **react native** components for `react-markdown`. The code
 
 # Install
 ```
-npm install --save react-markdown-native
+npm install --save react16-markdown-native
 ```
-
+```
+yarn add react16-markdown-native
+```
 # Basic usage
 ```js
-import Markdown from 'react-markdown-native';
+import Markdown from 'react16-markdown-native';
 
 // Render
 return (
